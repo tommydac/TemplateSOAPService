@@ -10,5 +10,5 @@ import javax.jws.soap.SOAPBinding.Style;
 @SOAPBinding(style = Style.DOCUMENT)
 public interface ITemplateService {
 	@WebMethod()
-	String sayHello(@WebParam(name="myName") String nameThis);
+	String sayHello(@WebParam(name="myName") String myName);
 }

@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "adjudication.server.IAService")
+@WebService(endpointInterface = "template.server.ITemplateService")
 public class TemplateSeviceImpl implements ITemplateService {
 	public String sayHello(String myName) {
 		LocalDate date = LocalDate.of(20, 12, 20);
