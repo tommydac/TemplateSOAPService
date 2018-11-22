@@ -1,7 +1,5 @@
 package template.server;
 
-import java.time.LocalDate;
-
 import javax.jws.WebService;
 
 @WebService(endpointInterface = "template.server.ITemplateService")
